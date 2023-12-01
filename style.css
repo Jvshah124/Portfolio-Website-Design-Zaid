@@ -93,9 +93,10 @@ header {
   font-family: "Smooch", cursive;
 }
 
-.menu-icon {
-  font-size: 12.7rem;
+#menu-icon {
+  font-size: 2.7rem;
   color: aliceblue;
+  z-index: 6;
 }
 
 /* HEADER SECTION END */
@@ -321,7 +322,7 @@ section {
     left: 100%;
     display: flex;
     flex-direction: column;
-    background: #2d2d2d;
+    background: rgba(9, 9, 9, 0.9);
     transition: all 0.3s ease-in-out;
   }
 
@@ -334,7 +335,7 @@ section {
     font-weight: 400;
   }
 
-  .navbar .open {
+  .navbar.open {
     left: 0;
   }
 }
