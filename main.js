@@ -13,11 +13,10 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(".logo", { delay: 200, origin: "left" });
-sr.reveal(".navbar", { delay: 400, origin: "top" });
-
-sr.reveal(".menu-btn", { delay: 500, origin: "right" });
-sr.reveal(".hero-img", { delay: 1000, origin: "right" });
+// sr.reveal(".navbar", { delay: 400, origin: "top" });
+// sr.reveal(".menu-btn", { delay: 500, origin: "right" });
+sr.reveal(".hero-img", { delay: 1100, origin: "right" });
 sr.reveal(".hero-text h1", { delay: 650, origin: "left" });
 sr.reveal(".hero-text p", { delay: 750, origin: "right" });
 sr.reveal(".main-btn", { delay: 750, origin: "left" });
-sr.reveal(".socials", { delay: 750, origin: "bottom" });
+sr.reveal(".socials", { delay: 750, origin: "left" });
