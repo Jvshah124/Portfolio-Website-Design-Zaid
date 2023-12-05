@@ -20,3 +20,5 @@ sr.reveal(".hero-text h1", { delay: 650, origin: "left" });
 sr.reveal(".hero-text p", { delay: 750, origin: "right" });
 sr.reveal(".main-btn", { delay: 750, origin: "left" });
 sr.reveal(".socials", { delay: 750, origin: "left" });
+
+alert("Hi, Welcome to my Portfolio");
